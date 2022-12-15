@@ -10,6 +10,9 @@ The project structure is as follows:
   - organized like the content on the rendered site
 - data
   - config files for different types of site content
+- layouts
+  - templates (.html) that specify how views of the content will be rendered into a static website
+    - template for content structure on page
 - static
   - all static content that gets copied into the hugo site upon generation, e.g. images
 - config.toml
@@ -21,7 +24,8 @@ The project structure is as follows:
 - themes/
   - themes added as submodules, in this case roxo-hugo
 - archetypes
-  - templates for new content files
+  - templates (.md) for new content files
+    - template for content text & metadata on page
   - (not really used for this project)
 
 To run a dev server with this site: `hugo server`
