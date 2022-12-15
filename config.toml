@@ -30,7 +30,7 @@ summarylength = 25
 
 # Site Params
 [params]
-  logo = "images/agic-logo.png"
+  mainLogo = "images/agic-logo-with-name.png"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Roxo Hugo themes | Design Agency Template by StaticMania"
@@ -67,10 +67,10 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
-    primary_button_url    = "portfolio"
+    heading               = "WWU Association for Gender Inclusion in Computing"
+    tagline               = "Support gender diversity in computer science!"
+    primary_button        = "About Us"
+    primary_button_url    = "about"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
@@ -89,6 +89,8 @@ summarylength = 25
     secondary_button_url = "portfolio"
 
   [params.footer]
+    logo  = "images/agic-logo-with-name.png"
+
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"

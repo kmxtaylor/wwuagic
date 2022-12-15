@@ -6,7 +6,7 @@ The project structure is as follows:
 
 - content
   - collection of files representing all content sections
-    - if you want to add content to the site, add it here
+    - if you want to add text content to the site, add it here
   - organized like the content on the rendered site
 - data
   - config files for different types of site content
@@ -14,7 +14,11 @@ The project structure is as follows:
   - templates (.html) that specify how views of the content will be rendered into a static website
     - template for content structure on page
 - static
-  - all static content that gets copied into the hugo site upon generation, e.g. images
+  - all static content that gets copied directly into the hugo site upon generation
+  - in this case, images
+- assets
+  - stores files to be processed by Hugo Pipes
+  - in this case, stylesheets (SCSS)
 - config.toml
   - important file that configures settings for the whole site
 - public/
@@ -23,6 +27,9 @@ The project structure is as follows:
   - *updates are not self-propagating; this directory needs to be re-generated anytime updates are made to other hugo files*
 - themes/
   - themes added as submodules, in this case roxo-hugo
+- resources
+  - automatically generates and caches files
+  - in this case, styles from assets/
 - archetypes
   - templates (.md) for new content files
     - template for content text & metadata on page
