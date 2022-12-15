@@ -89,7 +89,7 @@ summarylength = 25
   #   secondary_button_url = "portfolio"
 
   [params.footer]
-    logo  = "images/agic-logo-footer.png"
+    logo  = "images/agic-logo-with-name.png"
 
     # Footer Contact Info
     # [params.footer.contactInfo]
