@@ -557,10 +557,21 @@ textarea.form-control {
   margin-top: 10px;
   display: block; }
 
-.site-testimonial {
+.site-testimonial, .site-motivation {
   background: #F7F9FF;
   padding: 100px 0;
   overflow: hidden; }
+  .stats {
+    text-align: center;
+
+    #line-graph {
+      max-width: 300px;
+    }
+
+    .caption {
+      text-align: center; padding-top: 3rem;
+    }
+  }
   .site-testimonial-item {
     background: #fff;
     padding: 30px;

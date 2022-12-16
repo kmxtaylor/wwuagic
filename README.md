@@ -5,11 +5,11 @@ This website is made with Hugo and based on the theme roxo-hugo.
 The project structure is as follows:
 
 - content
-  - collection of files representing all content sections
+  - collection of files (.md) representing all content sections
     - if you want to add text content to the site, add it here
   - organized like the content on the rendered site
 - data
-  - config files for different types of site content
+  - config files (.yml) for different types of site content
 - layouts
   - templates (.html) that specify how views of the content will be rendered into a static website
     - template for content structure on page
@@ -18,14 +18,14 @@ The project structure is as follows:
   - in this case, images
 - assets
   - stores files to be processed by Hugo Pipes
-  - in this case, stylesheets (SCSS)
+  - in this case, stylesheets (.scss)
 - config.toml
   - important file that configures settings for the whole site
-- public/
+- public
   - static site contents
   - generated with the bash command `hugo`
   - *updates are not self-propagating; this directory needs to be re-generated anytime updates are made to other hugo files*
-- themes/
+- themes
   - themes added as submodules, in this case roxo-hugo
 - resources
   - automatically generates and caches files
