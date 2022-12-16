@@ -730,6 +730,9 @@ textarea.form-control {
       left: 30px;
       top: 0;
       transform: translateY(-50%); }
+      img {
+        width: 100px;
+      }
       @media (max-width: 767px) {
         .site-team-member-image {
           left: 50%;

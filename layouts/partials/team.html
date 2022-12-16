@@ -10,19 +10,21 @@
             </h2>
           </div>
         </div>
-        {{ range .members }}
+        {{ range .officers }}
         <div class="col-lg-4 col-md-6">
           <div class="site-team-member">
             <div class="site-team-member-image">
-              <img src="{{ .image | absURL }}" alt="team-member">
+              <img src="{{ .image | absURL }}" alt="{{ .name }} ">
             </div>
             <div class="site-team-member-content">
-              <h3>{{ .name }}</h3>
+              <h3>{{ .name }} 
+                {{ if .pronouns }}
+                  <span><em>({{ .pronouns }})</em></span>
+                {{ end }}
+              </h3>
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
-                <li><a href="{{ .medium | absURL }}"><i class="fa fa-medium"></i></a></li>
                 <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="{{ .instagram | absURL }}"><i class="fa fa-instagram"></i></a></li>
               </ul>
             </div>
           </div>
