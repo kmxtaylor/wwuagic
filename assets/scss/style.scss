@@ -1,8 +1,7 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Roxo HTML
-VERSION:	1.0.0
+Based on Roxo HTML (1.0.0)
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
 body {
@@ -56,24 +55,32 @@ h6 {
       position: relative;
       display: block;
       padding: 2px 0;
-      transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
-      transform-origin: left center; }
+      // transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+      // transform-origin: left center;
+    }
       .btn .btn-area span::after {
         content: attr(data-text);
         position: absolute;
         top: 150%;
-        left: 0;
-        transform: skewY(30deg);
-        transform-origin: left center;
-        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1); }
+        // left: 0;
+        // transform: skewY(30deg);
+        // transform-origin: left center;
+        // transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+      }
   .btn:hover .btn-area span {
-    transform: translateY(-150%) skewY(7deg); }
+    // transform: translateY(-150%); 
+    // transform: translateY(-150%) skewY(7deg);
+  }
     .btn:hover .btn-area span::after {
-      transform: skewY(-7deg); }
+      // transform: skewY(-7deg);
+    }
   .btn:visited .btn-area span {
-    transform: translateY(-150%) skewY(7deg); }
+    transform: translateY(-150%);
+    // transform: translateY(-150%) skewY(7deg);
+  }
     .btn:visited .btn-area span::after {
-      transform: skewY(-7deg); }
+      // transform: skewY(-7deg);
+    }
 
 .btn-sm {
   padding: 15px 40px !important; }
@@ -722,7 +729,12 @@ textarea.form-control {
       overflow: hidden;
       left: 30px;
       top: 0;
-      transform: translateY(-50%); }
+      transform: translateY(-50%);
+
+      img {
+        width: 100px;
+      }
+    }
       @media (max-width: 767px) {
         .site-team-member-image {
           left: 50%;
@@ -779,6 +791,8 @@ textarea.form-control {
   padding: 100px 0; }
   .site-footer-logo {
     margin-bottom: 50px; }
+    img { 
+      max-width: 300px; } // sets max size of footer logo
     @media (max-width: 575px) {
       .site-footer-logo {
         text-align: center; } }

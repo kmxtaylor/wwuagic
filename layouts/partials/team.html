@@ -1,0 +1,37 @@
+{{ with .Site.Data.team }}
+  {{ if .enable }}
+  <section class="site-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+          </div>
+        </div>
+        {{ range .officers }}
+        <div class="col-lg-4 col-md-6">
+          <div class="site-team-member">
+            <div class="site-team-member-image">
+              <img src="{{ .image | absURL }}" alt="{{ .name }} ">
+            </div>
+            <div class="site-team-member-content">
+              <h3>{{ .name }} 
+                {{ if .pronouns }}
+                  <span><em>({{ .pronouns }})</em></span>
+                {{ end }}
+              </h3>
+              <p>{{ .designation }}</p>
+              <ul class="site-team-member-social">
+                <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

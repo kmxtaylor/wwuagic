@@ -1,44 +1,38 @@
 enable  : true
-title   : Team that makes the difference.
-members  :
-  - image       : images/team/team-member-one.jpg
-    name        : PABLO ESCOBAR
-    designation : Creative Director
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+title   : Officers
+officers  :
+  - image       : images/team/brenn-nieva.jpg
+    name        : Brenn Nieva
+    designation : President
+    linkedin    : https://www.linkedin.com/in/brennanieva
 
-  - image       : images/team/team-member-two.jpg
-    name        : MONTINO RIAU
-    designation : Product Manager
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/sarah-coffland.jpg
+    name        : Sarah Coffland
+    designation : Vice President
+    linkedin    : https://www.linkedin.com/in/sarah-coffland
 
-  - image       : images/team/team-member-three.jpg
-    name        : ALEX NAASRI
-    designation : Chief Design Officer
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/katie-taylor.jpg
+    name        : Katie Taylor
+    designation : Web Development Lead
+    pronouns    : they/she
+    linkedin    : https://www.linkedin.com/in/kmxtaylor
 
-  - image       : images/team/team-member-four.jpg
-    name        : HONGMAN CHIOA
-    designation : UX Researcher
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/robin-preble.jpg
+    name        : Robin Preble
+    designation : Event Coordinator
+    linkedin    : https://www.linkedin.com/in/robin-preble
 
-  - image       : images/team/team-member-five.jpg
-    name        : SANTIO ANDRESS
-    designation : Content Researcher
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/katie-christensen.jpg
+    name        : Katie Christensen
+    designation : 
+    linkedin    : https://www.linkedin.com/in/katie-r-christensen
 
-  - image       : images/team/team-member-six.jpg
-    name        : RAMESH PAUL
-    designation : Creative Designer
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/lyric-otto.jpg
+    name        : Lyric Otto
+    designation : 
+    linkedin    : https://www.linkedin.com/in/lyric-otto
+
+  # - image       : images/team/team-member-one.jpg
+  #   name        : Fname Lname
+  #   designation : Position
+  #   linkedin    : https://www.linkedin.com
