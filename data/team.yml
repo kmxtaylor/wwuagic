@@ -32,7 +32,7 @@ officers  :
     designation : 
     linkedin    : https://www.linkedin.com/in/lyric-otto
 
-  - image       : images/team/team-member-one.jpg
-    name        : Fname Lname
-    designation : Position
-    linkedin    : https://www.linkedin.com
+  # - image       : images/team/team-member-one.jpg
+  #   name        : Fname Lname
+  #   designation : Position
+  #   linkedin    : https://www.linkedin.com
