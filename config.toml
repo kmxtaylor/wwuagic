@@ -24,7 +24,7 @@ summarylength = 25
   #   url     = "blog"
   #   weight  = 4
   [[menu.nav]]
-    name    = "Get in touch"
+    name    = "Get in Touch"
     url     = "contact"
     weight  = 5
 
@@ -66,9 +66,12 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
+    # background_image      = "images/backgrounds/colorful-background.png"
+    # background_image      = "images/backgrounds/basic-background.png"
+    background_image      = "images/backgrounds/basic-background2.png"
+    # background_image      = "images/backgrounds/basic-background3.png"
     heading               = "WWU Association for Gender Inclusion in Computing"
-    tagline               = "Support gender diversity in computer science!"
+    # tagline               = "Support gender diversity in computer science!"
     primary_button        = "About Us"
     primary_button_url    = "about"
     secondary_button      = "Connect with Us"
