@@ -38,3 +38,5 @@ The project structure is as follows:
 To run a dev server with this site: `hugo server`
 
 Please don't push changes directly to the main branch. Make your changes to the dev branch, verify that nothing is broken, and then merge them to the main branch.
+
+For editable copies of static files, please see Website folder of Google Drive.
