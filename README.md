@@ -16,9 +16,6 @@ The project structure is as follows:
 - static
   - all static content that gets copied directly into the hugo site upon generation
   - in this case, images
-- assets
-  - stores files to be processed by Hugo Pipes
-  - in this case, stylesheets (.scss)
 - config.toml
   - important file that configures settings for the whole site
 - public
@@ -27,6 +24,8 @@ The project structure is as follows:
   - *updates are not self-propagating; this directory needs to be re-generated anytime updates are made to other hugo files*
 - themes
   - themes added as submodules, in this case roxo-hugo
+  - styles sourced from here (in this case, a fork)
+    - to edit styles, you should edit the nicely-organized SCSS in the forked repo. Otherwise you may end up with style conflicts
 - resources
   - automatically generates and caches files
   - in this case, styles from assets/
