@@ -19,7 +19,11 @@
             <div class="site-team-member-content">
               <h3>{{ .name }}</h3>
               {{ if .pronouns }}
-                <div class="site-team-member-pronouns">{{ .pronouns }}</div>
+                <div class="site-team-member-pronouns">
+                  <strong>
+                    {{ .pronouns }}
+                  </strong>
+                </div>
               {{ end }}
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
