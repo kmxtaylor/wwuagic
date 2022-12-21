@@ -17,11 +17,10 @@
               <img src="{{ .image | absURL }}" alt="{{ .name }} ">
             </div>
             <div class="site-team-member-content">
-              <h3>{{ .name }} 
-                {{ if .pronouns }}
-                  <span><em>({{ .pronouns }})</em></span>
-                {{ end }}
-              </h3>
+              <h3>{{ .name }}</h3>
+              {{ if .pronouns }}
+                <div class="site-team-member-pronouns">{{ .pronouns }}</div>
+              {{ end }}
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
                 <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>

@@ -1,37 +1,52 @@
 enable  : true
 title   : Officers
 officers  :
-  - image       : images/team/brenn-nieva.jpg
-    name        : Brenn Nieva
+  - name        : Brenn Nieva
+    image       : images/team/placeholder.png
+    # image       : images/team/brenn-nieva.jpg
     designation : President
     linkedin    : https://www.linkedin.com/in/brennanieva
 
-  - image       : images/team/sarah-coffland.jpg
-    name        : Sarah Coffland
+  - name        : Sarah Coffland
+    image       : images/team/placeholder.png
+    # image       : images/team/sarah-coffland.jpg
     designation : Vice President
     linkedin    : https://www.linkedin.com/in/sarah-coffland
 
-  - image       : images/team/katie-taylor.jpg
-    name        : Katie Taylor
-    designation : Web Development Lead
+  - name        : Katie Taylor
+    image       : images/team/katie-taylor.jpg
+    designation : Web Development Lead & Adobe Event Coordinator
     pronouns    : they/she
     linkedin    : https://www.linkedin.com/in/kmxtaylor
 
-  - image       : images/team/robin-preble.jpg
-    name        : Robin Preble
+  - name        : Robin Preble
+    image       : images/team/robin-preble.jpg
     designation : Event Coordinator
     linkedin    : https://www.linkedin.com/in/robin-preble
 
-  - image       : images/team/katie-christensen.jpg
-    name        : Katie Christensen
+  - name        : Katie Christensen
+    image       : images/team/katie-christensen.jpg
     designation : Outreach Coordinator & Mentor Liaison
     pronouns    : she/her
     linkedin    : https://www.linkedin.com/in/katie-r-christensen
 
-  - image       : images/team/lyric-otto.jpg
-    name        : Lyric Otto
+  - name        : Lyric Otto
+    image       : images/team/placeholder.png
+    # image       : images/team/lyric-otto.jpg
     designation : 
     linkedin    : https://www.linkedin.com/in/lyric-otto
+
+  - name        : Noah Reneau
+    image       : images/team/placeholder.png
+    # image       : images/team/noah-reneau.jpg
+    designation : 
+    linkedin    : https://www.linkedin.com/in/noah-reneau
+
+  - name        : Natalie Norris
+    image       : images/team/placeholder.png
+    # image       : images/team/natalie-norris.jpg
+    designation : 
+    linkedin    : https://www.linkedin.com/in/natalie-norris-4423a2253
 
   # - image       : images/team/team-member-one.jpg
   #   name        : Fname Lname
