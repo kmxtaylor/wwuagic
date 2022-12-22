@@ -10,6 +10,7 @@ The project structure is as follows:
   - organized like the content on the rendered site
 - data
   - config files (.yml) for different types of site content
+    - including variables for text and other values like image source paths
 - layouts
   - templates (.html) that specify how views of the content will be rendered into a static website
     - template for content structure on page
