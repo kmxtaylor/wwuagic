@@ -21,21 +21,19 @@
   </div>
 </section>
 
-<section class="site-expertise">
+<section class="site-activities">
   <div class="container">
-    {{ with .Params.expertise_title }}
     <div class="row">
+      {{ with .Params.activities_title }}
       <div class="col-md-5">
         <div class="section-title">
           <h2>{{ . }}</h2>
         </div>
       </div>
-    </div>
-    {{ end }}
-    <div class="row">
+      {{ end }}
       <div class="col-md-6">
-        <ul class="site-motivation-list">
-          {{ range .Params.expertise_sectors }}
+        <ul class="site-activities-list">
+          {{ range .Params.activities_sectors }}
           <li>{{ . }}</li>
           {{ end }}
         </ul>

@@ -1,7 +1,7 @@
 enable  : true
 title : "Gender demographics in CS once looked very different than they do today..."
 # imgSrc : "images/women-in-cs-line-graph.png"
-motivationSections : [
+historySections : [
   "Women have played important roles in the history of computer science from the beginning, but their contributions have been historically undervalued.",
   "The first recognized programmer was Ada Lovelace. She was an English mathematician and writer in the 1800s and is credited as the author of the first ever published algorithm.",
   {

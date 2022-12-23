@@ -41,14 +41,3 @@ officers  :
     # image       : images/team/noah-reneau.jpg
     designation : 
     linkedin    : https://www.linkedin.com/in/noah-reneau
-
-  - name        : Natalie Norris
-    image       : images/team/placeholder.png
-    # image       : images/team/natalie-norris.jpg
-    designation : 
-    linkedin    : https://www.linkedin.com/in/natalie-norris-4423a2253
-
-  # - image       : images/team/team-member-one.jpg
-  #   name        : Fname Lname
-  #   designation : Position
-  #   linkedin    : https://www.linkedin.com
