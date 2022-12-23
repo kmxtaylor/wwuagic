@@ -1,4 +1,4 @@
-baseURL = 'https://kmxtaylor.github.io/wwuagic'
+baseURL = 'https://kmxtaylor.github.io/wwuagic/'
 languageCode = 'en-us'
 title = 'WWU Association for Gender Inclusion in Computing'
 theme = 'roxo-hugo'
