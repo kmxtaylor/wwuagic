@@ -1,6 +1,6 @@
-{{ with .Site.Data.motivation }}
+{{ with .Site.Data.history }}
   {{ if .enable }}
-  <section class="site-motivation">
+  <section class="site-history">
     <div class="container">
       <div class="row">
         {{ if .title }}
@@ -10,14 +10,14 @@
           </div>
         </div>
         {{ end }}
-        {{ range .motivationSections }}
+        {{ range .historySections }}
           {{ if isset . "imgSrc" }}
           <div class="col-12 img-container">
             <img src="{{ .imgSrc }}" alt="{{ .altText }}" />
           </div>
           {{ else }}
           <div class="col-12">
-            <p class="site-motivation-paragraph">
+            <p class="site-history-paragraph">
               {{ . }}
             </p>
           </div>
