@@ -5,19 +5,34 @@ officers  :
     image       : images/team/placeholder.png
     # image       : images/team/brenn-nieva.jpg
     designation : President
+    pronouns    : they/she
     linkedin    : https://www.linkedin.com/in/brennanieva
 
   - name        : Sarah Coffland
     image       : images/team/placeholder.png
     # image       : images/team/sarah-coffland.jpg
     designation : Vice President
+    pronouns    : she/her
     linkedin    : https://www.linkedin.com/in/sarah-coffland
 
   - name        : Katie Taylor
     image       : images/team/katie-taylor.jpg
-    designation : Web Development Lead & Adobe Event Coordinator
+    designation : Web Dev Team Lead & Adobe Event Coordinator
     pronouns    : they/she
     linkedin    : https://www.linkedin.com/in/kmxtaylor
+
+  - name        : Wil Zuber
+    image       : images/team/wil-zuber.png
+    designation : Web Dev Team Member
+    pronouns    : he/him & e/em/es
+    linkedin    : https://www.linkedin.com/in/wilson-zuber-754299168
+
+  - name        : Natalie Keys
+    image       : images/team/placeholder.png
+    # image       : images/team/natalie-keys.jpg
+    designation : Web Dev Team Member
+    pronouns    : she/her
+    linkedin    : https://www.linkedin.com/in/natalie-keys
 
   - name        : Robin Preble
     image       : images/team/robin-preble.jpg
@@ -30,14 +45,28 @@ officers  :
     pronouns    : she/her
     linkedin    : https://www.linkedin.com/in/katie-r-christensen
 
+  - name        : Tyanin Opdahl
+    image       : images/team/placeholder.png
+    # image       : images/team/tyanin-opdahl.jpg
+    designation : Communications Officer
+    pronouns    : she/her
+    linkedin    : https://www.linkedin.com/in/tyanin-opdahl
+
+  - name        : Justice Baum
+    image       : images/team/justice-baum.jpg
+    designation : Board of Ethics
+    pronouns    : they/them
+    linkedin    : https://www.linkedin.com/in/justice-baum-295abb223
+
   - name        : Lyric Otto
     image       : images/team/placeholder.png
     # image       : images/team/lyric-otto.jpg
     designation : 
     linkedin    : https://www.linkedin.com/in/lyric-otto
 
-  - name        : Noah Reneau
-    image       : images/team/placeholder.png
-    # image       : images/team/noah-reneau.jpg
-    designation : 
-    linkedin    : https://www.linkedin.com/in/noah-reneau
+  # - name        : Noah Reneau
+  #   image       : images/team/placeholder.png
+  #   # image       : images/team/noah-reneau.jpg
+  #   designation : 
+  #   pronouns    : he/him
+  #   linkedin    : https://www.linkedin.com/in/noah-reneau
