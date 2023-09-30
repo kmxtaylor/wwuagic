@@ -4,7 +4,7 @@
       {{ with .Site.Params.footer.sitemap }}
       <div class="col-lg-2 col-md-4">
         <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <div class="site-footer-widget-title">{{ .title }}</div>
           <ul class="site-footer-widget-links">
             {{ range .link }}
             <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
@@ -16,7 +16,7 @@
       {{ with .Site.Params.footer.social }}
       <div class="col-lg-2 col-md-4">
         <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <div class="site-footer-widget-title">{{ .title }}</div>
           <ul class="site-footer-widget-links">
             {{ range .link }}
               <li><a href="{{ .url }}">{{ .name }}</a></li>

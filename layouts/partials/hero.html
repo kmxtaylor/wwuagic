@@ -6,7 +6,9 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class="site-hero-content text-center">
-            <h6>{{ .tagline }}</h6>
+            {{ if .tagline }}
+              <div class="site-hero-tagline">{{ .tagline }}</div>
+            {{ end }}
             <h1>
               {{ .heading }}
             </h1>
