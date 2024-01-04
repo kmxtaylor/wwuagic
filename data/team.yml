@@ -1,11 +1,17 @@
 enable  : true
 title   : Officers
 officers  :
-  # - name        : Brenn Nieva
-  #   image       : images/team/placeholder.png
-  #   # image       : images/team/brenn-nieva.jpg
-  #   designation : President
-  #   linkedin    : https://www.linkedin.com/in/brennanieva
+  - name        : Brenn Nieva
+    image       : images/team/placeholder.png
+    # image       : images/team/brenn-nieva.jpg
+    designation : Co-President
+    linkedin    : https://www.linkedin.com/in/brennanieva
+
+  - name        : Wil Zuber
+    image       : images/team/wil-zuber.png
+    designation : Co-President
+    pronouns    : he/they
+    linkedin    : https://www.linkedin.com/in/wilson-zuber-754299168
 
   # - name        : Sarah Coffland
   #   image       : images/team/placeholder.png
@@ -13,22 +19,10 @@ officers  :
   #   designation : Vice President
   #   linkedin    : https://www.linkedin.com/in/sarah-coffland
 
-  - name        : Katie Taylor
-    image       : images/team/katie-taylor.jpg
-    designation : Web Development Lead & Adobe Event Coordinator
-    pronouns    : they/them
-    linkedin    : https://www.linkedin.com/in/kmxtaylor
-
   - name        : Robin Preble
     image       : images/team/robin-preble.jpg
     designation : Event Coordinator
     linkedin    : https://www.linkedin.com/in/robin-preble
-
-  - name        : Wil Zuber
-    image       : images/team/wil-zuber.png
-    designation : Coordinator
-    pronouns    : he/they
-    linkedin    : https://www.linkedin.com/in/wilson-zuber-754299168
 
   - name        : Justic Baum
     image       : images/team/justice-baum.jpg
@@ -36,9 +30,20 @@ officers  :
     pronouns    : they/them
     linkedin    : https://www.linkedin.com/in/justice-baum
 
+  - name        : Katie Taylor
+    image       : images/team/katie-taylor.jpg
+    designation : Web Development Lead & Adobe Event Coordinator
+    pronouns    : they/them
+    linkedin    : https://www.linkedin.com/in/kmxtaylor
+
+  - name        : Tyanin Opdahl
+    image       : images/team/placeholder.png
+    # image       : images/team/tyanin-opdahl.jpg
+    designation : 
+    linkedin    : https://www.linkedin.com/in/tyanin-opdahl
+
   - name        : Lyric Otto
     image       : images/team/placeholder.png
     # image       : images/team/lyric-otto.jpg
     designation : 
     linkedin    : https://www.linkedin.com/in/lyric-otto
-
